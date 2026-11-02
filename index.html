@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>祐可嘉烘焙 · 全案运营方案</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:#6b4226;padding:0 0 48px;color:#3a2b1a}
+.top-bar{background:linear-gradient(160deg,#6b4226,#8b5a2b);padding:24px 20px 20px;text-align:center}
+.top-bar .mini{font-size:11px;color:#f5e0c3;letter-spacing:2px;margin-bottom:6px}
+.top-bar h1{font-size:22px;font-weight:800;color:#fff;letter-spacing:.5px;line-height:1.4}
+.top-bar .sub-line{font-size:13px;color:#f5e0c3;margin-top:6px}
+.top-bar .tagline{display:inline-block;margin-top:10px;background:rgba(255,255,255,0.12);border:1px solid #f5e0c3;color:#f5e0c3;font-size:12px;padding:4px 14px;border-radius:20px;letter-spacing:.5px}
+.container{max-width:430px;margin:0 auto;background:#fdfaf5;border-radius:20px 20px 0 0;padding:20px 16px 28px;margin-top:-14px}
+.card{background:#f9f3e8;border-radius:14px;padding:16px;margin-bottom:12px;border:1px solid #e8d9c3}
+.card .chapter{display:flex;align-items:flex-start;gap:8px;margin-bottom:10px}
+.card .chapter .no{display:inline-flex;align-items:center;justify-content:center;background:#8b5a2b;color:#fff;min-width:26px;height:26px;border-radius:50%;font-size:13px;font-weight:700;flex-shrink:0;margin-top:2px}
+.card .chapter .t{font-size:15.5px;font-weight:700;color:#6b4226;line-height:1.4}
+.card p{font-size:14px;line-height:1.8;color:#4a3a2c;margin-bottom:6px}
+.card ul{padding-left:18px;line-height:1.9;font-size:14px;color:#4a3a2c}
+.card ul li{margin-bottom:4px}
+.card b,.card strong{color:#a0522d}
+.info-box{background:linear-gradient(135deg,#6b4226,#8b5a2b);border-radius:14px;padding:16px;margin-bottom:12px;color:#fff}
+.info-box p{font-size:13.5px;line-height:1.75;color:#faf3e8;margin-bottom:4px}
+.info-box b{color:#f5e0c3}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.info-grid .it{background:rgba(255,255,255,0.1);border-radius:10px;padding:8px 10px}
+.info-grid .it .l{font-size:11px;color:#f5e0c3;margin-bottom:2px}
+.info-grid .it .v{font-size:13px;font-weight:600;color:#fff}
+.hl{background:#fdf6e3;border-left:3px solid #c9a227;padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px;line-height:1.8;color:#5a4632}
+.hl b{color:#a0522d}
+.warn{background:#fdece8;border-left:3px solid #c0392b;padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px;line-height:1.8;color:#7a3a30}
+.warn b{color:#c0392b}
+.price-grid{display:grid;gap:8px;margin:8px 0}
+.price-row{display:flex;justify-content:space-between;align-items:center;background:#f0e2cd;border-radius:10px;padding:10px 14px;font-size:13.5px}
+.price-row .name{font-weight:600;color:#6b4226}
+.price-row .price{font-weight:800;color:#a0522d}
+.price-row .old{font-size:12px;color:#a89880;text-decoration:line-through;margin-left:4px;font-weight:400}
+.timeline{border-left:2px solid #ddc8ad;padding-left:14px;margin:8px 0}
+.timeline .tl-item{position:relative;margin-bottom:10px}
+.timeline .tl-item .dot{position:absolute;left:-19px;top:6px;width:8px;height:8px;border-radius:50%;background:#c9a227}
+.timeline .tl-item .time{font-size:13px;font-weight:700;color:#a0522d}
+.timeline .tl-item .desc{font-size:13.5px;line-height:1.75;color:#4a3a2c}
+.table-wrap{overflow-x:auto;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #e8d9c3;vertical-align:top}
+th{background:#f0e2cd;font-weight:700;color:#6b4226}
+td{color:#4a3a2c;line-height:1.6}
+.tag{display:inline-block;background:#f0e2cd;color:#a0522d;font-size:11px;padding:2px 8px;border-radius:8px;font-weight:600}
+.final-card{background:linear-gradient(135deg,#6b4226,#8b5a2b);border-radius:16px;padding:18px;text-align:center;margin-top:14px}
+.final-card p{color:#fff;font-size:15px;font-weight:700;line-height:1.7;letter-spacing:.3px}
+.final-card .sub{color:#f5e0c3;font-size:12.5px;margin-top:6px}
+.sign{font-size:11px;color:#b8a894;text-align:center;margin-top:16px;line-height:1.7}
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+<div class="mini">全案运营方案 · 无骑手专版</div>
+<h1>祐可嘉烘焙</h1>
+<div class="sub-line">塘沽工农村 · 新河街道</div>
+<div class="tagline">没有骑手 · 就做到店自提和堂食</div>
+</div>
+
+<div class="container">
+
+<div class="info-box">
+<p><b>店名：</b>祐可嘉烘焙</p>
+<p><b>位置：</b>天津滨海塘沽工农村 · 新河街道</p>
+<p><b>现状：</b>尚未营业，点评页面已建、团购已挂，0评价0流量</p>
+<p><b>关键约束：</b><b style="color:#ffd9a0">没有骑手，外卖做不了</b></p>
+<p><b>核心策略：</b>放弃外卖，把到店自提 + 堂食 + 预订做透</p>
+</div>
+
+<!-- 一 -->
+<div class="card">
+<div class="chapter"><span class="no">1</span><span class="t">先说清楚：没有骑手意味着什么</span></div>
+<p><strong>烘焙店正常营收结构：</strong>外卖占30-40%，堂食+自提占60-70%。没有骑手，等于砍掉三分之一的营收来源——这是硬约束，绕不过去。</p>
+<p style="margin-top:6px"><strong>但反过来看，没有骑手也有三个好处：</strong></p>
+<table>
+<tr><th>好处</th><th>说明</th></tr>
+<tr><td>省佣金</td><td>外卖平台抽成18-22%，自提0佣金，同样的面包多赚两成</td></tr>
+<tr><td>产品不受限</td><td>奶油蛋糕、现烤面包这些怕压怕化的，堂食自提能做，外卖做不了</td></tr>
+<tr><td>体验完整</td><td>顾客进店闻到香味、看到出炉，转化率和复购率都比外卖高</td></tr>
+</table>
+<div class="hl"><b>所以本方案的核心逻辑是：</b>不跟外卖店拼配送，把"<b>专程来一趟</b>"这件事做成价值——现烤出炉、试吃、会员日、预订自提，让顾客愿意走这一趟。</div>
+</div>
+
+<!-- 二 -->
+<div class="card">
+<div class="chapter"><span class="no">2</span><span class="t">三条腿走路 · 没有外卖怎么补</span></div>
+<p><strong>腿一：到店自提（主力，占50-60%）</strong></p>
+<p>这是替代外卖的核心。做法：</p>
+<ul>
+<li><b>预订自提</b>：微信/小程序提前下单，到店直接取，不用等；</li>
+<li><b>早餐自提</b>：前一晚群内预订次日早餐（面包+咖啡/牛奶套餐），早上7-9点自提——解决烘焙店"早上没人"的问题；</li>
+<li><b>下午茶自提</b>：周边上班族、小区住户，小程序下单下午3-5点取；</li>
+<li><b>生日蛋糕预订</b>：提前1-3天预订，到店取，这是烘焙店利润最高的品类。</li>
+</ul>
+<p style="margin-top:6px"><strong>腿二：堂食（占25-35%）</strong></p>
+<ul>
+<li>店内设<b>4-6个座位</b>，做"面包+咖啡"的下午茶场景；</li>
+<li>主打"<b>现烤出炉时间表</b>"：每天固定几个时段出炉（如10:00、14:00、16:30），出炉时店内广播/群内通知，营造"抢新鲜"的氛围；</li>
+<li>试吃台常设：切小块免费尝，尝了才买。</li>
+</ul>
+<p style="margin-top:6px"><strong>腿三：企业/团体订单（占10-15%）</strong></p>
+<ul>
+<li>周边写字楼、公司下午茶、会议茶歇——这是无外卖烘焙店最容易被忽略的高价值渠道；</li>
+<li>做一份<b>企业团购报价单</b>（满20份起送/自提优惠），主动跑周边写字楼；</li>
+<li>节假日礼盒（中秋、春节、教师节）——提前1个月预售。</li>
+</ul>
+</div>
+
+<!-- 三 -->
+<div class="card">
+<div class="chapter"><span class="no">3</span><span class="t">产品结构 · 现烤是最大卖点</span></div>
+<p><strong>核心定位一句话：</strong>"<b>祐可嘉 · 每天现烤，出炉就卖</b>"——把"现烤"做成记忆点，这是连锁面包房（中央工厂配送）做不到的。</p>
+<p style="margin-top:6px"><strong>1. 招牌产品（必须有1-2个爆款）</strong></p>
+<ul>
+<li><b>一款招牌面包</b>：如"祐可嘉招牌奶香手撕包""现烤芝士条"，定价12-18元，每天限量；</li>
+<li><b>一款招牌蛋糕</b>：生日蛋糕是利润核心，6寸定价128-168元，8寸188-238元；</li>
+<li><b>一款引流品</b>：如"1元蛋挞""5元现烤菠萝包"（限时限量，制造排队感）。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 产品线控制在30-40个SKU</strong></p>
+<p>不要贪多。烘焙店最大的损耗来自"做多了卖不掉"：</p>
+<ul>
+<li><b>常销款（20个）</b>：每天必做，按销量定产量；</li>
+<li><b>轮换款（10个）</b>：每周换2-3款，制造新鲜感；</li>
+<li><b>预订款（5个）</b>：生日蛋糕、礼盒，只接受预订不做现货。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 晚间折扣清货（关键）</strong></p>
+<p>晚上7点后全场<b>7折</b>，8点半后<b>5折</b>——把损耗换成客流，也让小区住户养成"晚上去捡漏"的习惯。</p>
+<p style="margin-top:6px"><strong>4. 套餐组合</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">早餐套餐（面包+咖啡/牛奶）</span><span class="price">15-18元</span></div>
+<div class="price-row"><span class="name">下午茶套餐（2个面包+饮品）</span><span class="price">28-35元</span></div>
+<div class="price-row"><span class="name">家庭分享装（6个混合）</span><span class="price">45-55元</span></div>
+</div>
+</div>
+
+<!-- 四 -->
+<div class="card">
+<div class="chapter"><span class="no">4</span><span class="t">点评运营 · 从0建立"值得专程来"</span></div>
+<div class="warn"><b>当前状态：</b>点评页面显示"尚未营业"，0评价0评分。顾客搜不到、看到了也不敢来。<b>开业前必须先把页面装修好。</b></div>
+<p style="margin-top:6px"><strong>1. 门店基建（开业前完成）</strong></p>
+<ul>
+<li>认领门店，补全店名、地址（精确到门牌）、电话、营业时间、人均；</li>
+<li><b>头图</b>：现烤面包出炉的大图，或者摆满面包的柜台照——不要用门头照；</li>
+<li>环境图8-10张：柜台、出炉瞬间、座位区、包装细节；</li>
+<li>菜单图完整上传，价格透明。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 评价积累（新店红利期）</strong></p>
+<table>
+<tr><th>阶段</th><th>目标</th><th>动作</th></tr>
+<tr><td>第1个月</td><td>30-40条</td><td>到店引导评价，收藏打卡送小面包</td></tr>
+<tr><td>第2个月</td><td>累计60条+</td><td>自提订单附评价卡，二次到店引导补评</td></tr>
+<tr><td>第3个月</td><td>稳定4.5+</td><td>复购客自然评价，进入正向循环</td></tr>
+</table>
+<p style="margin-top:6px"><strong>合规攒分动作：</strong></p>
+<ul>
+<li><b>收藏打卡送小食</b>：收藏门店+打卡，送一个现烤小面包/蛋挞，成本2-3元；</li>
+<li><b>评价有礼</b>：真实消费后评价，凭截图下次到店减5元（不指定好评、不返现）；</li>
+<li><b>自提评价卡</b>：每单放一张卡片"喜欢的话给个评价，下次下单备注'老客'送小食"。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 团购设计（3档，主打自提）</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">单人面包+饮品套餐</span><span class="price">19.9元 <span class="old">(原价26)</span></span></div>
+<div class="price-row"><span class="name">家庭分享装（6个面包）</span><span class="price">49.9元 <span class="old">(原价68)</span></span></div>
+<div class="price-row"><span class="name">5元现烤菠萝包券</span><span class="price">引流档 · 限堂食/自提</span></div>
+</div>
+<div class="hl"><b>关键：</b>所有团购都标注"<b>到店自提</b>"，不承诺配送——避免顾客下单后要求送餐产生差评。</div>
+</div>
+
+<!-- 五 -->
+<div class="card">
+<div class="chapter"><span class="no">5</span><span class="t">小区私域 · 无外卖店的生命线</span></div>
+<p><strong>逻辑：</strong>没有外卖，复购只能靠"人再来一次"。小区住户是最稳定的复购客，一个小区几百户，抓住100-150个常客，这家店就稳了。</p>
+<p style="margin-top:6px"><strong>1. 建群钩子</strong></p>
+<ul>
+<li>店内桌卡/收银台："扫码进祐可嘉邻里群，每周三会员日全场8折"；</li>
+<li>自提订单附群二维码卡片；</li>
+<li>小区电梯/公告栏（征得物业同意）放海报。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 群运营三件套（每天有动作）</strong></p>
+<table>
+<tr><th>时间</th><th>动作</th></tr>
+<tr><td>每天早7:00</td><td>发"今日出炉表"+早餐预订链接</td></tr>
+<tr><td>每天16:00</td><td>发"下午新鲜出炉"实拍图</td></tr>
+<tr><td>每天19:30</td><td>发"晚间7折清货"通知（限量）</td></tr>
+<tr><td>每周三</td><td>会员日全场8折（群友专属）</td></tr>
+<tr><td>每月1次</td><td>新品免费试吃（限10人）</td></tr>
+</table>
+<p style="margin-top:6px"><strong>3. 储值卡（锁客核心）</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">充100送20</span><span class="price">尝鲜档</span></div>
+<div class="price-row"><span class="name">充300送80</span><span class="price">主力档</span></div>
+<div class="price-row"><span class="name">充500送150</span><span class="price">深度客</span></div>
+</div>
+<p style="margin-top:6px"><b>规则写清楚：</b>余额随时可退、可转赠，印在卡背面——小店最怕顾客担心"充了钱店没了"。</p>
+</div>
+
+<!-- 六 -->
+<div class="card">
+<div class="chapter"><span class="no">6</span><span class="t">预订自提体系 · 替代外卖的关键</span></div>
+<p><strong>为什么这条最重要：</strong>外卖的价值是"提前锁定需求+准时交付"。没有骑手，就用"<b>提前预订+到店自提</b>"来替代——顾客提前下单，店里按单生产，零损耗、零配送。</p>
+<p style="margin-top:6px"><strong>1. 预订渠道</strong></p>
+<ul>
+<li><b>微信群接龙</b>：最简单，每晚发接龙，第二天到店取；</li>
+<li><b>小程序商城</b>：正式一点，支持在线支付、订单管理；</li>
+<li><b>电话/微信私聊</b>：适合生日蛋糕这类需要沟通的订单。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 三个预订场景</strong></p>
+<table>
+<tr><th>场景</th><th>提前时间</th><th>产品</th></tr>
+<tr><td>早餐自提</td><td>前一晚20:00前</td><td>面包+饮品套餐（15-18元）</td></tr>
+<tr><td>下午茶自提</td><td>当天上午</td><td>面包组合、蛋糕切块</td></tr>
+<tr><td>生日蛋糕</td><td>提前1-3天</td><td>6寸/8寸定制蛋糕（128-238元）</td></tr>
+</table>
+<p style="margin-top:6px"><strong>3. 自提体验要做好</strong></p>
+<ul>
+<li>设<b>自提专窗/专柜</b>，报手机号后四位直接取，不用排队；</li>
+<li>自提顾客送一个小福利（如一杯美式、一块试吃品）；</li>
+<li>包装要好看——自提带走的包装就是移动广告。</li>
+</ul>
+</div>
+
+<!-- 七 -->
+<div class="card">
+<div class="chapter"><span class="no">7</span><span class="t">开业活动 · 造排队感</span></div>
+<p><strong>1. 开业三天活动（选2-3个组合）</strong></p>
+<ul>
+<li><b>1元蛋挞/5元菠萝包</b>：每天限量100个，制造排队（排队本身就是广告）；</li>
+<li><b>储值免单</b>：充300送80+当餐免单（限每日前20名）；</li>
+<li><b>集赞送面包</b>：转发开业海报到朋友圈集38赞，到店领面包一份；</li>
+<li><b>试吃地推</b>：开业前3天在小区门口、菜市场派试吃，发5元券。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 开业后第2-3周接住</strong></p>
+<ul>
+<li>第二次到店券（满30减10），有效期7天；</li>
+<li>邻里回头券：凭小区门禁/业主群截图享9折；</li>
+<li>数据复盘三数：<b>日客流、会员转化率、评价数</b>。</li>
+</ul>
+<div class="hl"><b>注意：</b>开业活动要设"每日限量+总额上限"，别让让利吃掉利润。烘焙毛利虽高（60-70%），但损耗也高，活动期间要盯紧产量。</div>
+</div>
+
+<!-- 八 -->
+<div class="card">
+<div class="chapter"><span class="no">8</span><span class="t">抖音 + 小红书 · 内容替代外卖曝光</span></div>
+<p><strong>没有外卖，线上曝光就全靠内容。</strong>烘焙是天然的内容品类——出炉、拉丝、奶油、切面，都是高完播素材。</p>
+<p style="margin-top:6px"><strong>1. 抖音（每周3条）</strong></p>
+<ul>
+<li><b>出炉瞬间</b>：面包从烤箱出来的热气腾腾（3秒内必须出现）；</li>
+<li><b>拉丝/爆浆</b>：芝士拉丝、奶油爆浆的特写；</li>
+<li><b>老板出镜</b>：讲今天做了什么、为什么用这个面粉——真实感最打动人；</li>
+<li><b>排队实拍</b>：开业期排队画面，制造"这家店很火"的印象。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 投放</strong></p>
+<ul>
+<li>DOU+投本地3-5公里，每条100-200元测试；</li>
+<li>重点投"塘沽""工农村"地域标签；</li>
+<li>团购链接挂视频小黄车（标注自提）。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 小红书（发够20篇）</strong></p>
+<ul>
+<li>方向："塘沽工农村宝藏面包店""现烤出炉的快乐""人均20吃到好面包"；</li>
+<li>照片要暖色调、面包特写、出炉蒸汽；</li>
+<li>标签：#天津面包 #塘沽美食 #现烤面包 #烘焙店。</li>
+</ul>
+</div>
+
+<!-- 九 -->
+<div class="card">
+<div class="chapter"><span class="no">9</span><span class="t">企业订单 · 被忽略的高价值渠道</span></div>
+<p><strong>为什么重要：</strong>没有外卖，企业团单是唯一能"一次卖很多"的渠道。周边写字楼、公司下午茶、会议茶歇，一次订单顶得上几十个散客。</p>
+<p style="margin-top:6px"><strong>1. 目标客户</strong></p>
+<ul>
+<li>周边写字楼公司（下午茶、会议茶歇）；</li>
+<li>学校、幼儿园（教师节、活动）；</li>
+<li>社区活动、物业活动（节日礼盒）；</li>
+<li>周边商铺（员工餐、招待）。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 怎么做</strong></p>
+<ul>
+<li>做一份<b>企业团购报价单</b>：满20份9折、满50份85折，可自提可送货（3公里内自己送）；</li>
+<li><b>主动跑楼</b>：开业后每周跑2-3栋写字楼，带试吃盒+报价单；</li>
+<li><b>节日礼盒预售</b>：中秋、春节、教师节，提前1个月开始预售。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 配送问题怎么解决</strong></p>
+<p>3公里内的团单，老板/店员自己送（一次送20-50份，成本可控）；更远的只做自提。**不要接超出能力的单**，送不及时反而砸口碑。</p>
+</div>
+
+<!-- 十 -->
+<div class="card">
+<div class="chapter"><span class="no">10</span><span class="t">开业节奏 · 分四周推进</span></div>
+<div class="timeline">
+<div class="tl-item"><span class="dot"></span><div class="time">开业前7天 · 打地基</div><div class="desc">点评门店认领+装修（头图/环境图/菜单）；团购3档上架（标注自提）；收银系统装好、扫码点餐调通；建邻里群；确定出炉时间表。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">开业前3天 · 蓄水</div><div class="desc">小区海报/电梯广告；试吃地推（小区门口、菜市场）；群内预告开业活动；抖音发3条预热（备料、试烤、倒计时）。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">开业第1周 · 引爆</div><div class="desc">1元蛋挞/5元菠萝包限量；储值免单；集赞送面包；到店全量引导评价（目标20条）；每天发抖音。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">第2-4周 · 稳复购</div><div class="desc">评价攒到40条；储值卡推广（充300送80）；早餐预订启动；第二次到店券发出；小红书铺5-10篇；开始跑企业团单。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">第2个月 · 上轨道</div><div class="desc">评分稳定4.5+；周三会员日跑顺；企业团单稳定2-3家；晚间折扣清货形成习惯；复盘数据定下季度打法。</div></div>
+</div>
+</div>
+
+<!-- 十一 -->
+<div class="card">
+<div class="chapter"><span class="no">11</span><span class="t">营收测算 · 无外卖的账怎么算</span></div>
+<table>
+<tr><th>渠道</th><th>日单量</th><th>客单</th><th>日营收</th></tr>
+<tr><td>到店自提（含预订）</td><td>40-60单</td><td>25元</td><td>1000-1500元</td></tr>
+<tr><td>堂食</td><td>15-25人</td><td>30元</td><td>450-750元</td></tr>
+<tr><td>企业/团体订单</td><td>—</td><td>—</td><td>200-500元（月均摊）</td></tr>
+<tr><td><b>合计</b></td><td>—</td><td>—</td><td><b>1650-2750元/日</b></td></tr>
+</table>
+<p style="margin-top:6px"><strong>月度测算：</strong>按日均2000元计，月营收约<b>6万元</b>；烘焙毛利率约60-65%，月毛利约<b>3.6-3.9万元</b>。扣除房租（底商按8000-12000元/月）、人工（2-3人约1-1.5万）、原料损耗、水电，<b>月净利目标 8000-15000元</b>。</p>
+<p style="margin-top:6px"><strong>关键变量：</strong></p>
+<ul>
+<li><b>损耗率</b>：控制在8%以内（烘焙店最大杀手，做多了就是扔钱）；</li>
+<li><b>客单价</b>：靠套餐和储值拉到25-30元；</li>
+<li><b>企业团单</b>：每月稳定2-3家，能贡献15%营收。</li>
+</ul>
+<div class="warn"><b>如果没有外卖，营收天花板会低一些</b>，但净利率反而可能更高（省了平台佣金和配送成本）。关键是控制损耗和把复购做起来。</div>
+</div>
+
+<!-- 十二 -->
+<div class="card">
+<div class="chapter"><span class="no">12</span><span class="t">收银系统 · 自提和会员的底座</span></div>
+<p>无外卖烘焙店，系统重点在四件事：</p>
+<ul>
+<li><b>扫码点餐/自提核销</b>：顾客到店报号直接取，不用排队；</li>
+<li><b>会员储值</b>：余额、赠送、退款清晰可查；</li>
+<li><b>预订管理</b>：生日蛋糕、早餐预订的订单管理，避免漏单；</li>
+<li><b>自动营销</b>：第二次到店券、生日券、沉睡唤醒券自动发。</li>
+</ul>
+<p style="margin-top:6px"><b>每晚看三个数：</b>日客流、会员新增、当日损耗——损耗高就要调产量。</p>
+</div>
+
+<!-- 十三 -->
+<div class="card">
+<div class="chapter"><span class="no">13</span><span class="t">风险与应对</span></div>
+<table>
+<tr><th>风险</th><th>应对</th></tr>
+<tr><td>没有外卖，营收少三成</td><td>用自提预订+企业团单补，把"专程来"做成价值</td></tr>
+<tr><td>损耗高（做多卖不掉）</td><td>按销量定产量，晚间7折/8点半5折清货，控制SKU在30-40个</td></tr>
+<tr><td>顾客要求配送</td><td>团购页明确标注"仅自提"，3公里内团单可自己送</td></tr>
+<tr><td>小区住户消费力有限</td><td>人均15-25已适配，靠储值和会员日培养习惯</td></tr>
+<tr><td>周边连锁面包房竞争</td><td>差异化在"现烤出炉+小区邻里关系"，不打价格战</td></tr>
+<tr><td>开业活动让利过大</td><td>设每日限量+总额上限，盯紧毛利</td></tr>
+</table>
+</div>
+
+<!-- 十四 -->
+<div class="card">
+<div class="chapter"><span class="no">14</span><span class="t">下一步 · 本周先做三件事</span></div>
+<div class="hl"><b>1. 修点评门店信息：</b>现在显示"尚未营业"，先把店名、地址、头图、菜单补齐，团购标注"到店自提"。</div>
+<div class="hl"><b>2. 定出炉时间表和招牌产品：</b>每天几点出炉、招牌面包是哪款、生日蛋糕定价多少——这三样定死，所有内容围绕它们打。</div>
+<div class="hl"><b>3. 建邻里群 + 启动预订：</b>开业前把群建起来，用早餐预订先跑通"提前下单→到店自提"这个闭环。</div>
+</div>
+
+<div class="final-card">
+<p>没有骑手，就让人愿意走这一趟</p>
+<p>没有外卖，就把自提做成习惯</p>
+<div class="sub">现烤出炉 · 到店自提 · 小区复购</div>
+</div>
+
+<div class="sign">
+本方案为门店运营参考方案 · 出品：美团·苏苏<br>
+所有运营动作均遵循平台规则
+</div>
+
+</div>
+</body>
+</html>
